@@ -29,17 +29,18 @@ git clone https://github.com/your-username/task-management-system.git
 source .venv/bin/activate
 ```
 
-### **3. Navigate to the Project Directory**
+### **3. Install Project Dependencies**
+Install all the necessary project dependencies from requirements.txt:
+```bash
+pip install -r requirements.txt
+```
+
+### **4. Navigate to the Project Directory**
 Once the repository is cloned, navigate to the project directory:
 ```bash
 cd TMS/
 ```
 
-### **4. Install Project Dependencies**
-Install all the necessary project dependencies from requirements.txt:
-```bash
-pip install -r requirements.txt
-```
 
 ### **5. Make Migrations**
 Before running the migrations, you must create initial migrations based on your models. Run the following command:
