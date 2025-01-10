@@ -24,12 +24,7 @@ Once the repository is cloned, navigate to the project directory:
 cd TMS/
 ```
 
-### **3. Set Up a Virtual Environment**
-Create a virtual environment to manage the project's dependencies:
-```bash
-python -m venv .venv
-```
-### **4. Activate the virtual environment**
+### **3. Activate the virtual environment**
 **On Windows:**
 ```bash
 .\.venv\Scripts\activate
@@ -39,13 +34,13 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-### **5. Install Project Dependencies**
+### **4. Install Project Dependencies**
 Install all the necessary project dependencies from requirements.txt:
 ```bash
 pip install -r requirements.txt
 ```
 
-### **6. Make Migrations**
+### **5. Make Migrations**
 Before running the migrations, you must create initial migrations based on your models. Run the following command:
 ```bash
 python manage.py makemigrations
@@ -57,7 +52,7 @@ python manage.py migrate
 ```
 This will set up your database according to the models you've defined in the project.
 
-### **7. Run the Development Server**
+### **6. Run the Development Server**
 Run the development server using the following command:
 ```bash
 python manage.py runserver
@@ -70,7 +65,7 @@ python manage.py runserver 8080
 ```
 This will run the server on port 8080 instead of the default port 8000.
 
-### **8. Access the Application**
+### **7. Access the Application**
 Now that the server is running open your browser and go to:
 ```bash
 http://127.0.0.1:8000/
