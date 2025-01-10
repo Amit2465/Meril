@@ -74,9 +74,4 @@ This will run the server on port 8080 instead of the default port 8000.
 Now that the server is running open your browser and go to:
 ```bash
 http://127.0.0.1:8000/
-```bash
-
-
-
-
-
+```
