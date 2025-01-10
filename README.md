@@ -18,13 +18,8 @@ Start by cloning the repository to your local machine. Open a terminal and run t
 git clone https://github.com/your-username/task-management-system.git
 ```
 
-### **2. Navigate to the Project Directory**
-Once the repository is cloned, navigate to the project directory:
-```bash
-cd TMS/
-```
 
-### **3. Activate the virtual environment**
+### **2. Activate the virtual environment**
 **On Windows:**
 ```bash
 .\.venv\Scripts\activate
@@ -32,6 +27,12 @@ cd TMS/
 **On macOS/Linux:**
 ```bash
 source .venv/bin/activate
+```
+
+### **3. Navigate to the Project Directory**
+Once the repository is cloned, navigate to the project directory:
+```bash
+cd TMS/
 ```
 
 ### **4. Install Project Dependencies**
