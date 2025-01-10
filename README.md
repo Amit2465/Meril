@@ -64,7 +64,7 @@ python manage.py runserver
 ```
 By default, the server runs on port 8000.
 **If Port 8000 is Already in Use**
-If port 8000 is already in use, you can specify a different port by running the server with an alternative port number:
+you can specify a different port by running the server with an alternative port number:
 ```bash
 python manage.py runserver 8080
 ```
